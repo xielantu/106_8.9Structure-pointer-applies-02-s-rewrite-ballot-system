@@ -1,4 +1,5 @@
 # 106_8.9结构体指针应用02之改写选票系统
+```cpp
 ﻿// 106_8.9结构体指针应用02之改写选票系统.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
@@ -12,8 +13,6 @@ struct XuanMin
 	char name[32];
 	int tickets;
 };
-
-
 int main()
 {
 	struct XuanMin xm[3];
@@ -83,3 +82,4 @@ int main()
 
 	return 0;
 }
+```
